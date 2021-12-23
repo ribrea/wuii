@@ -146,7 +146,7 @@ class wuii:
 
         return list(set(self._followings) - set(self._followers))
 
-    def dont_you_fallow(self):
+    def dont_you_follow(self):
         if not self._followings:
             self._followings = self.followings()
         if not self._followers:
